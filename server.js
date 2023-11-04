@@ -12,7 +12,7 @@ const router = express.Router()
 
 const PORT = process.env.PORT || 5000
 
-const allowedOrigins = ['https://portfolio-kfg0.onrender.com'];
+const allowedOrigins = ['*'];
 
 app.use(cors({
    origin: allowedOrigins
