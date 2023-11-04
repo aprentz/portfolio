@@ -1,0 +1,81 @@
+.skills {
+   padding: 0 0 50px 0;
+   position: relative;
+   background-image: url("../../assets/img/bg-1.jpeg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.skills-bx {
+   background: #071218;
+   border-radius: 64px;
+   text-align: center;
+   padding: 60px 50px;
+   margin-top: -82px;
+}
+
+.skills h2 {
+   font-size: 45px;
+   font-weight: 700;
+}
+
+.skills p {
+   color: #b8b8b8;
+   font-size: 18px;
+   letter-spacing: 0.8px;
+   line-height: 1.5em;
+   margin: 14px 0 75px 0;
+}
+
+.skill-slider {
+   width: 80%;
+   margin: 0 auto;
+   position: relative;
+
+}
+
+.skill-slider .item img {
+   width: 50%;
+   margin: 0 auto 15px auto;
+   margin-top: 0.5em;
+}
+
+.img-ctr {
+   display:flex;
+   height: 100%;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 1em;
+}
+
+.background-image-left {
+   top: 28%;
+   position: absolute;
+   bottom: 0;
+   width: 40%;
+   z-index: -4;
+}
+
+.item {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.react-logo {
+   z-index: 20;
+   animation: rotation 20s infinite linear;
+
+}
+
+@keyframes rotation {
+   from {
+      transform: rotate(0deg);
+   }
+
+   to {
+      transform: rotate(359deg);
+   }
+}
