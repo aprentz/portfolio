@@ -8,11 +8,9 @@ app.use(express.json());
 
 const router = express.Router()
 
-
-
 const PORT = process.env.PORT || 5000
 
-const allowedOrigins = ['*'];
+const allowedOrigins = ['https://portfolio-kors.onrender.com/'];
 
 app.use(cors({
    origin: allowedOrigins
