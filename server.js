@@ -10,7 +10,7 @@ const router = express.Router()
 
 const PORT = process.env.PORT || 5000
 
-const allowedOrigins = ['https://portfolio-kors.onrender.com/'];
+const allowedOrigins = ['https://portfolio-kors.onrender.com/', 'https://sendgrid.api-docs.io'];
 
 app.use(cors({
    origin: allowedOrigins
