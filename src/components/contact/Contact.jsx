@@ -12,7 +12,7 @@ const Contact = () => {
       phone: "",
       message: "",
    }
-   sgMail.setApiKey(`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`);
+   sgMail.setApiKey(`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`);
 
    const msg = {
       to: 'alex.rentz@outlook.com',
