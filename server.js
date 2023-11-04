@@ -32,7 +32,7 @@ const contact = async (req, res) => {
       port: 587,
       auth: {
          user: 'alex.rentz@outlook.com',
-         pass: 'vgpcdpcmetvtqyfe'
+         pass: 'xuphrytkddiptcwi'
       }
    });
 
